@@ -5,35 +5,23 @@
 ## 🟩 English
 > ## Scenarios & Advantages
 > **Use Tailscale to Easily Replace WireGuard + Termius, Free, and Easy to Maintain**
-> - **Just Install One Piece of Software: Tailscale**
->   - Unlike WireGuard, Tailscale doesn't require separate server and client setups, and you don't have to juggle four sets of server/client * public/private keys — reducing the risk of key leaks.
->   - When you connect via Tailscale VPN, you only access devices on the internal network that also have Tailscale installed, this adding an extra layer of security. In contrast, WireGuard gives you direct access to everything on the internal network right away.
->   - (Note: If you need it, Tailscale supports adding a subnet router to allow access to all devices on the internal network.)
->   - No need for extra SSH tools like Termius.
->   - Tailscale's SSH feature lets you open a terminal right in your browser — it's incredibly convenient.
->   - Tailscale handles NAT traversal and hole punching automatically, without any setup or additional port forwarding software like Termius.
->   - Tailscale is fantastic for managing multi-user teams.
+> - **Simply install one piece of software: Tailscale**
+>   - Tailscale installation doesn't differentiate between Server/Client configurations like WireGuard, and there's no need to manage four public/private keys for WireGuard Server/Client, avoiding the risk of key leakage.
+>   - Tailscale VPN connects only to devices on the internal network that have Tailscale installed, providing an extra layer of protection; whereas WireGuard VPN directly accesses all devices on the internal network once connected.
+>   - (Note: If needed, Tailscale also supports installing a subnet router to allow direct access to all devices on the intranet.)
+>   - Tailscale doesn't require additional SSH software, such as Termius.
+>   - Tailscale SSH allows opening a terminal directly in the browser, which is super convenient.
+>   - Tailscale automatically handles NAT traversal and hole punching and doesn't need additional Port Forwarding software, like Termius.
+>   - Tailscale excels in multi-user team management.
 >   - Tailscale installation is a breeze — just 5 minutes.
->   - (Note: If desired, you can self-host Headscale with Tailscale to safeguard user account bindings, login info, and metadata like who connects to whom, when, and from which IP.)
-
-
-> - **Use WireGuard VPN**
->   - Use DGX Spark as VPN Server. (Mac/PC = Client)
->   - The VPN penetration rate is extremely high, and using a mobile hotspot is rarely blocked by carriers.
->   - Configuring WireGuard with UDP port 51820 along with keepalive is the right move.
->   - 90% of mobile networks in Taiwan allow WireGuard, but OpenVPN does not.
-> - **Do not use Tunnelblick / OpenVPN, no need for an expensive router's built-in VPN.**
->   - Reason 1 for VPN connection failure when using mobile hotspots: carrier intentionally block mobile network UDP/TCP 1194 Ports VPN traffic.
->     - Using TCP port 443 can enhance VPN penetration rates, which is relatively stable but slower, and may cause TCP-over-TCP head-of-line blocking leading to meltdown issues on mobile networks.
->     - Some expensive routers cannot change TCP port# which is also a problem (only TCP port 1194 is available).
->   - Reason 2 for VPN connection failure when using mobile hotspots: mobile network NAT causes UDP packet loss.
->     - Although Tunnelblick and OpenVPN use UDP, their internal implementation is similar to TCP and SSL/TLS, with many steps, making it prone to disconnections on mobile networks.
->   - Therefore, there is no need for Tunnelblick and OpenVPN
-> - **Use a low-end Router**
->   - Router: must have a fixed Public IP (x.x.x.x) and support Port Forwarding.
->   - Since Tunnelblick and OpenVPN are not used, the Router does not need advanced VPN features (if available, disable them), just a cheap Router is sufficient.
-> - Simple one-line **SSH** command **login to DGX Spark**
->   - After rebooting, simply have the Mac/PC Client run this SHH command in step 9.1 - it's super easy.
+>   - (Note: If needed, Tailscale also supports self-hosting Headscale to protect user account binding and login info, as well as to safeguard metadata like who connects to whom, when, from which IP, etc.)
+> - **Avoid Termius cross mobile+desktop devices requires Termius PRO subscription payment**
+>   - Avoid shelling out ~$60 USD per year for Termius's cross-device sync (e.g., between 1 tablet and 1 DGX Spark).
+>   - Tailscale offers free support for up to 3 users and 100 devices.
+> - **Use Tailscale-Assigned 100.x.x.x IPs for Interconnection**
+>   - Devices running Tailscale connect to each other via the 100.x.x.x IPs it assigns, blurring the lines between internal and external networks.
+>   - No need to get a fixed external IP—especially handy when your DGX Spark is at a company or school, where you can't request one.
+>   - It works reliably even without a public IP, open ports, or stable IPs that change daily. Future changes in network gear or topology at work or school won't faze it—Tailscale keeps maintenance costs low.
 
 
 <img width="617" height="508" alt="Day01A" src="https://github.com/user-attachments/assets/a9631407-221e-4316-9cea-fa9c1415cf4e" />
