@@ -1,4 +1,9 @@
-# DGX Spark (Day01A) Remote Access from Internet Guide 20251220A
+<sub><sup>Forget my previous articles on the two Server/Client connection methods for DGX Spark: [Day01A: Remote Access from Internet Guide](https://github.com/Sniper711/DGX-Spark-Day01A-Remote-Access-from-Internet-Guide-20251220A/blob/main/DGX%20Spark%20(Day01A)%20Remote%20Access%20from%20Internet%20Guide%2020251220A.md) and [Day01B: Local Access from Same Subnet Guide](https://github.com/Sniper711/DGX-Spark-Day01B-Local-Access-from-Same-Subnet-Guide-20251220B/blob/main/DGX%20Spark%20(Day01B)%EF%BC%9ALocal%20Access%20from%20Same%20Subnet%20Guide%2020251220B.md), and the article [Day03: DGX Spark Now Accessible on Tablets and Mobile Devices](https://github.com/Sniper711/DGX-Spark-Day03-DGX-Spark-Now-Accessible-on-Tablets-and-Mobile-Devices-20260102/blob/main/DGX%20Spark%20(Day03)%20DGX%20Spark%20Now%20Accessible%20on%20Tablets%20and%20Mobile%20Devices%2020260102.md), because syncing Termius settings across mobile+desktop devices requires Termius PRO subscription payment! </sup></sub>
+<sub><sup> Here, let's master Tailscale to Easily Replace Wireguide+Termius
+
+I'll adapt the official NVIDIA steps (which rely on NVIDIA SYNC app) for setting up ComfyUI on an NVIDIA DGX Spark, without using NVIDIA SYNC app connections. I hope this gives you more options for reference.</sup></sub>
+
+# DGX Spark (Day05) Mastering Tailscale to Easily Replace Wireguide+Termius 20260116
 ## 🟩 English
 > ## Scenarios & Advantages
 > **From an external network on Mac/PC → via WireGuard VPN → SSH login to DGX Spark at home**
