@@ -25,7 +25,7 @@
 
 
 <img width="1350" height="544" alt="截圖 2026-01-23 14 14 51" src="https://github.com/user-attachments/assets/ac3e79a6-da56-4334-8312-59edeefcb62a" />
-<img width="648" height="531" alt="截圖 2026-01-23 14 05 17" src="https://github.com/user-attachments/assets/425f5dfa-d0fa-4adb-a1b5-f5862ff837c9" />
+<img width="893" height="736" alt="截圖 2026-01-23 14 17 00" src="https://github.com/user-attachments/assets/71700ff9-819e-48c3-9708-7328615d7542" />
 
 
 ---
