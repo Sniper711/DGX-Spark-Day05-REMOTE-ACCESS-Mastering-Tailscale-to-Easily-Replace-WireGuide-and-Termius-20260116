@@ -1,12 +1,10 @@
-Forget about my (Day01A)+(Day01B)+(Day03) Guilds. This (Day05) Tailscale Guide officially from NVIDIA can replace them all, and is amazingly easy. Thanks NVIDIA. 
-
 <sub><sup>忘掉我前面這三篇文章吧 DGX Spark : [第01天A: 外網遠端操控 指南](https://github.com/Sniper711/DGX-Spark-Day01A-Remote-Access-from-Internet-Guide-20251220A/blob/main/DGX%20Spark%20(%E7%AC%AC01%E5%A4%A9A)%20%E5%A4%96%E7%B6%B2%E9%81%A0%E7%AB%AF%E6%93%8D%E6%8E%A7%20%E6%8C%87%E5%8D%97%2020251220A.md) 與 [第01天B: 同子網內網操控 指南](https://github.com/Sniper711/DGX-Spark-Day01B-Local-Access-from-Same-Subnet-Guide-20251220B/blob/main/DGX%20Spark%20(%E7%AC%AC01%E5%A4%A9B)%EF%BC%9A%E5%90%8C%E5%AD%90%E7%B6%B2%E5%85%A7%E7%B6%B2%E6%93%8D%E6%8E%A7%20%E6%8C%87%E5%8D%97%2020251220B.md) 兩種 Server/Client 連線方式，以及 [第03天: DGX Spark 現可支援 平板與手機 遠端存取](https://github.com/Sniper711/DGX-Spark-Day03-DGX-Spark-Now-Accessible-on-Tablets-and-Mobile-Devices-20260102/blob/main/DGX%20Spark%20(%E7%AC%AC03%E5%A4%A9)%20DGX%20Spark%20%E7%8F%BE%E5%8F%AF%E6%94%AF%E6%8F%B4%20%E5%B9%B3%E6%9D%BF%E8%88%87%E6%89%8B%E6%A9%9F%20%E9%81%A0%E7%AB%AF%E5%AD%98%E5%8F%96%2020260102.md)。因為跨 mobile+desktop 裝置同步 Termius 設定是需要付費的。</sup></sub>
-<sub><sup> 以下，我們改學會 Tailscale 輕鬆取代 Wireguard+Termius，這是來自 NVIDIA 官方推薦的方法，而且免費。希望我的經驗能給你參考。</sup></sub>
+<sub><sup> 以下，我們改學會 Tailscale 輕鬆取代 WireGuard+Termius，這是來自 NVIDIA 官方推薦的方法，而且免費。希望我的經驗能給你參考。</sup></sub>
 
-# DGX Spark (第05天) 學會用 Tailscale 輕鬆取代 Wireguard+Termius 20260116
+# DGX Spark (第05天) 學會用 Tailscale 輕鬆取代 WireGuard+Termius 20260116
 ## 🟩 中文版
 > ## 適用情境 與 優點
-> **用 Tailscale 輕鬆取代 Wireguard+Termius，免費，容易維護**
+> **用 Tailscale 輕鬆取代 WireGuard+Termius，免費，容易維護**
 > - **只安裝一套 Tailscale 軟體**
 >   - Tailscale 安裝不像 WireGuard 分 Server/Client 設定，也不用管理 WireGuard Server/Client 四隻 公鑰/私鑰，避免鑰匙流出風險。
 >   - Tailscale VPN 連進來只通內網有安裝 Tailscale 的設備，還有一層保護；而 WireGuard VPN 連進內網就直接通內網所有設備。
