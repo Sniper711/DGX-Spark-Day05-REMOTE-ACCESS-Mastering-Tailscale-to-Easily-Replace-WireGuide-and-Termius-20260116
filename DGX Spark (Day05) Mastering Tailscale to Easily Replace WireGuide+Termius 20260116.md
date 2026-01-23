@@ -24,6 +24,7 @@
 >   - It works reliably even without a public IP, open ports, or stable IPs that change daily. Future changes in network gear or topology at work or school won't faze it—Tailscale keeps maintenance costs low.
 
 
+<img width="1354" height="550" alt="截圖 2026-01-23 14 21 36" src="https://github.com/user-attachments/assets/e5129568-790c-4cfc-9caf-f84a108fbafe" />
 <img width="1350" height="544" alt="截圖 2026-01-23 14 14 51" src="https://github.com/user-attachments/assets/ac3e79a6-da56-4334-8312-59edeefcb62a" />
 <img width="893" height="736" alt="截圖 2026-01-23 14 17 00" src="https://github.com/user-attachments/assets/71700ff9-819e-48c3-9708-7328615d7542" />
 
