@@ -29,10 +29,13 @@
 <img width="648" height="531" alt="截圖 2026-01-23 14 05 17" src="https://github.com/user-attachments/assets/39948f26-0e75-427c-9cbb-c6f9c0a5e202" />
 
 
-
 ---
 
 ## NVIDIA 官網 - [在您的 Spark 上設定 Tailscale](https://build.nvidia.com/spark/tailscale/instructions)
-### 依照 NVIDIA 官網步驟安裝保證成功。
+### 依照 NVIDIA 官網指南的步驟完成安裝。
+
+---
+
+# **恭喜你！從此你能用任何裝置連上 DGX Spark，用 DGX Spark 的 GPU 算力暢跑各種應用了！**
 
 ---
