@@ -36,6 +36,6 @@
 
 ---
 
-# Congratulations - From now on, you can connect to your DGX Spark from any device and unleash its GPU power to run all kinds of AI applications smoothly!
+# Congratulations - Now you can connect to your DGX Spark from any device and unleash its GPU power to run all kinds of AI applications smoothly!
 
 ---
