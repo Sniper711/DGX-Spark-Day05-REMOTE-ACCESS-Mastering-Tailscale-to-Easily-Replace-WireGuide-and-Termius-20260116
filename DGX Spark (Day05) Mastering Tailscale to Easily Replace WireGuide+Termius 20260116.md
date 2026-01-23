@@ -1,12 +1,22 @@
 <sub><sup>Forget my previous articles on the two Server/Client connection methods for DGX Spark: [Day01A: Remote Access from Internet Guide](https://github.com/Sniper711/DGX-Spark-Day01A-Remote-Access-from-Internet-Guide-20251220A/blob/main/DGX%20Spark%20(Day01A)%20Remote%20Access%20from%20Internet%20Guide%2020251220A.md) and [Day01B: Local Access from Same Subnet Guide](https://github.com/Sniper711/DGX-Spark-Day01B-Local-Access-from-Same-Subnet-Guide-20251220B/blob/main/DGX%20Spark%20(Day01B)%EF%BC%9ALocal%20Access%20from%20Same%20Subnet%20Guide%2020251220B.md), and the article [Day03: DGX Spark Now Accessible on Tablets and Mobile Devices](https://github.com/Sniper711/DGX-Spark-Day03-DGX-Spark-Now-Accessible-on-Tablets-and-Mobile-Devices-20260102/blob/main/DGX%20Spark%20(Day03)%20DGX%20Spark%20Now%20Accessible%20on%20Tablets%20and%20Mobile%20Devices%2020260102.md), because syncing Termius settings across mobile+desktop devices requires Termius PRO subscription payment! </sup></sub>
-<sub><sup> Here, let's master Tailscale to Easily Replace WireGuide+Termius
-
-I'll adapt the official NVIDIA steps (which rely on NVIDIA SYNC app) for setting up ComfyUI on an NVIDIA DGX Spark, without using NVIDIA SYNC app connections. I hope this gives you more options for reference.</sup></sub>
+<sub><sup> Here, let's master Tailscale to Easily Replace WireGuide+Termius. This is a method officially recommended by NVIDIA, and it's free. I hope my experience can serve as a reference for you.</sup></sub>
 
 # DGX Spark (Day05) Mastering Tailscale to Easily Replace WireGuide+Termius 20260116
 ## 🟩 English
 > ## Scenarios & Advantages
-> **From an external network on Mac/PC → via WireGuard VPN → SSH login to DGX Spark at home**
+> **Use Tailscale to Easily Replace WireGuard + Termius, Free, and Easy to Maintain**
+> - **Just Install One Piece of Software: Tailscale**
+>   - Unlike WireGuard, Tailscale doesn't require separate server and client setups, and you don't have to juggle four sets of public and private keys—reducing the risk of key leaks.
+>   - When you connect via Tailscale VPN, you only access devices on the internal network that also have Tailscale installed, this adding an extra layer of security. In contrast, WireGuard gives you direct access to everything on the internal network right away.
+>   - (Note: If you need it, Tailscale supports adding a subnet router to allow access to all devices on the internal network.)
+>   - No need for extra SSH tools like Termius.
+>   - Tailscale's SSH feature lets you open a terminal right in your browser — it's incredibly convenient.
+>   - Tailscale handles NAT traversal and hole punching automatically, without any setup or additional port forwarding software like Termius.
+>   - Tailscale is fantastic for managing multi-user teams.
+>   - Tailscale installation is a breeze — just 5 minutes.
+>   - (Note: If desired, you can self-host Headscale with Tailscale to safeguard user account bindings, login info, and metadata like who connects to whom, when, and from which IP.)
+
+
 > - **Use WireGuard VPN**
 >   - Use DGX Spark as VPN Server. (Mac/PC = Client)
 >   - The VPN penetration rate is extremely high, and using a mobile hotspot is rarely blocked by carriers.
