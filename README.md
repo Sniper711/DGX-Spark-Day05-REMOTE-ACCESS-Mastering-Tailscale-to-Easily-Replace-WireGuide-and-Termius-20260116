@@ -31,6 +31,7 @@
 >   - No need to get a fixed external IP—especially handy when your DGX Spark is at a company or school, where you can't request one.
 >   - It works reliably even without a public IP, open ports, or stable IPs that change daily. Future changes in network gear or topology at work or school won't faze it—Tailscale keeps maintenance costs low.
 <img width="1350" height="544" alt="截圖 2026-01-23 14 14 51" src="https://github.com/user-attachments/assets/ac3e79a6-da56-4334-8312-59edeefcb62a" />
+
 ### Congratulations - From now on, you can connect to your DGX Spark from any device and unleash its GPU power to run all kinds of AI applications smoothly!
 <br>
 
