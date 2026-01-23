@@ -32,7 +32,7 @@
 >   - It works reliably even without a public IP, open ports, or stable IPs that change daily. Future changes in network gear or topology at work or school won't faze it—Tailscale keeps maintenance costs low.
 <img width="1350" height="544" alt="截圖 2026-01-23 14 14 51" src="https://github.com/user-attachments/assets/ac3e79a6-da56-4334-8312-59edeefcb62a" />
 
-### Congratulations - From now on, you can connect to your DGX Spark from any device and unleash its GPU power to run all kinds of AI applications smoothly!
+### Congratulations - Now you can connect to your DGX Spark from any device and unleash its GPU power to run all kinds of AI applications smoothly!
 <br>
 
 
@@ -56,6 +56,7 @@
 >   - 不需要申請對外固定IP. 尤其當你把 DGX Spark 放公司與學校時，無法要求公司與學校為你申請一個固定IP.
 >   - 完全沒公網 IP、沒開任何端口、IP 每天變，也能穩定連上。將來公司與學校經常換內網的網通設備與網路拓樸也不怕，Tailscale 維護成本低。
 <img width="1493" height="304" alt="截圖 2026-01-23 10 52 19" src="https://github.com/user-attachments/assets/b0c19936-80bd-4640-b345-92343f0cdd9f" />
+
 ### 恭喜你！從此你能用任何裝置連上 DGX Spark，用 DGX Spark 的 GPU 算力暢跑各種 AI 應用了！
 <br>
 
