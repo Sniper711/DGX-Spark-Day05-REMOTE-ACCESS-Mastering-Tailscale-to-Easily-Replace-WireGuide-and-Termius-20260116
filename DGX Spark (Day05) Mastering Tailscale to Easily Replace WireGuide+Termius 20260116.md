@@ -6,7 +6,7 @@
 > ## Scenarios & Advantages
 > **Use Tailscale to Easily Replace WireGuard + Termius, Free, and Easy to Maintain**
 > - **Just Install One Piece of Software: Tailscale**
->   - Unlike WireGuard, Tailscale doesn't require separate server and client setups, and you don't have to juggle four sets of public and private keys—reducing the risk of key leaks.
+>   - Unlike WireGuard, Tailscale doesn't require separate server and client setups, and you don't have to juggle four sets of server/client x public/private keys — reducing the risk of key leaks.
 >   - When you connect via Tailscale VPN, you only access devices on the internal network that also have Tailscale installed, this adding an extra layer of security. In contrast, WireGuard gives you direct access to everything on the internal network right away.
 >   - (Note: If you need it, Tailscale supports adding a subnet router to allow access to all devices on the internal network.)
 >   - No need for extra SSH tools like Termius.
