@@ -1,3 +1,5 @@
+Forget about my (Day01A)+(Day01B)+(Day03) Guilds. This (Day05) Tailscale Guide officially from NVIDIA can replace them all, and is amazingly easy. Thanks NVIDIA. 
+
 # DGX Spark (第05天) 學會用 Tailscale 輕鬆取代 Wireguard+Termius 20260116
 ## 🟩 中文版
 > ## 適用情境 與 優點
