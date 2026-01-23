@@ -31,11 +31,11 @@
 
 ---
 
-## NVIDIA 官網 - [在您的 Spark 上設定 Tailscale](https://build.nvidia.com/spark/tailscale/instructions)
+## NVIDIA 官方指南 - [在您的 Spark 上設定 Tailscale](https://build.nvidia.com/spark/tailscale/instructions)
 ### 依照 NVIDIA 官網指南的步驟完成安裝。
 
 ---
 
-# **恭喜你！從此你能用任何裝置連上 DGX Spark，用 DGX Spark 的 GPU 算力暢跑各種應用了！**
+# **恭喜你！從此你能用任何裝置連上 DGX Spark，用 DGX Spark 的 GPU 算力暢跑各種 AI 應用了！**
 
 ---
