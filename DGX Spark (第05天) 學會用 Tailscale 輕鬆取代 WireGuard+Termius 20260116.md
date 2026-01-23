@@ -36,6 +36,6 @@
 
 ---
 
-# **恭喜你！從此你能用任何裝置連上 DGX Spark，用 DGX Spark 的 GPU 算力暢跑各種 AI 應用了！**
+# 恭喜你！從此你能用任何裝置連上 DGX Spark，用 DGX Spark 的 GPU 算力暢跑各種 AI 應用了！
 
 ---
