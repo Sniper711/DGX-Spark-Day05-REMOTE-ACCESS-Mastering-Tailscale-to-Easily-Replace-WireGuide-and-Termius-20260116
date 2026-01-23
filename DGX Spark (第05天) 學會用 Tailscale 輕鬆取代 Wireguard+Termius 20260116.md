@@ -32,6 +32,6 @@ Forget about my (Day01A)+(Day01B)+(Day03) Guilds. This (Day05) Tailscale Guide o
 ---
 
 ## NVIDIA 官網 - [在您的 Spark 上設定 Tailscale](https://build.nvidia.com/spark/tailscale/instructions)
-### 依照 NVIDIA 官網步驟即可成功。
+### 依照 NVIDIA 官網步驟安裝保證成功。
 
 ---
