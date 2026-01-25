@@ -26,6 +26,7 @@
 
 
 <img width="1493" height="304" alt="截圖 2026-01-23 10 52 19" src="https://github.com/user-attachments/assets/b0c19936-80bd-4640-b345-92343f0cdd9f" />
+<img width="1330" height="414" alt="Day05 Mastering Tailscale to easily replace WireGuard+Termius" src="https://github.com/user-attachments/assets/2e658507-d100-4be5-b25c-7dd4399039a1" />
 <img width="648" height="531" alt="截圖 2026-01-23 14 05 17" src="https://github.com/user-attachments/assets/39948f26-0e75-427c-9cbb-c6f9c0a5e202" />
 
 
