@@ -7,7 +7,7 @@
 <sub><sup> 以下，我們改學會 Tailscale 輕鬆取代 WireGuard+Termius，這是來自 NVIDIA 官方推薦的方法，而且免費。希望我的經驗能給你參考。</sup></sub>
 
 <img width="1330" height="414" alt="Day05 Mastering Tailscale to easily replace WireGuard+Termius" src="https://github.com/user-attachments/assets/2e658507-d100-4be5-b25c-7dd4399039a1" />
-
+<img width="893" height="736" alt="截圖 2026-01-23 14 17 00" src="https://github.com/user-attachments/assets/71700ff9-819e-48c3-9708-7328615d7542" /><img width="893" height="736" alt="截圖 2026-01-23 14 17 00" src="https://github.com/user-attachments/assets/71700ff9-819e-48c3-9708-7328615d7542" />
 
 ---
 # DGX Spark (Day05) Mastering Tailscale to Easily Replace WireGuide+Termius 20260116 🟩 [English](https://github.com/Sniper711/DGX-Spark-Day05-Mastering-Tailscale-to-Easily-Replace-WireGuide-and-Termius-20260116/blob/main/DGX%20Spark%20(Day05)%20Mastering%20Tailscale%20to%20Easily%20Replace%20WireGuide+Termius%2020260116.md)
