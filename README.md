@@ -61,6 +61,8 @@
 <br>
 
 <img width="1330" height="414" alt="Day05 Mastering Tailscale to easily replace WireGuard+Termius" src="https://github.com/user-attachments/assets/2e658507-d100-4be5-b25c-7dd4399039a1" />
+![Uploading Day05 Mastering Tailscale (IP) to easily replace WireGuard+Termius.png…]()
+
 <img width="893" height="736" alt="截圖 2026-01-23 14 17 00" src="https://github.com/user-attachments/assets/71700ff9-819e-48c3-9708-7328615d7542" />
 
 ---
