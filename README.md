@@ -62,6 +62,8 @@
 ### 恭喜你！從此你能用任何裝置連上 DGX Spark，用 DGX Spark 的 GPU 算力暢跑各種 AI 應用了！
 <br>
 
+<img width="893" height="736" alt="截圖 2026-01-23 14 17 00" src="https://github.com/user-attachments/assets/71700ff9-819e-48c3-9708-7328615d7542" />
+
 ---
 
 ## 喜歡這個專案嗎？ 如果對您有幫助，請給一個 ★ Star 吧！這對我非常重要！
@@ -71,5 +73,3 @@
 ---
 Davis Lin (Sniper711) .
 Unauthorized article copying, distribution, or modification is prohibited.
-
-<img width="893" height="736" alt="截圖 2026-01-23 14 17 00" src="https://github.com/user-attachments/assets/71700ff9-819e-48c3-9708-7328615d7542" />
