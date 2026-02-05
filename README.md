@@ -12,7 +12,7 @@
 
 
 > ## Scenarios & Advantages
-> **Use Tailscale to Easily Replace WireGuard + Termius, Free, and Easy to Maintain**
+> **[REMOTE ACCESS] Use Tailscale to Easily Replace WireGuard + Termius, Free, and Easy to Maintain**
 > - **Simply install one piece of software: Tailscale**
 >   - Tailscale installation doesn't differentiate between Server/Client configurations like WireGuard, and there's no need to manage four public/private keys for WireGuard Server/Client, avoiding the risk of key leakage.
 >   - Tailscale VPN connects only to devices on the internal network that have Tailscale installed, providing an extra layer of protection; whereas WireGuard VPN directly accesses all devices on the internal network once connected.
@@ -37,7 +37,7 @@
 
 
 > ## 適用情境 與 優點
-> **用 Tailscale 輕鬆取代 WireGuard+Termius，免費，容易維護**
+> **[遠端操作] 用 Tailscale 輕鬆取代 WireGuard+Termius，免費，容易維護**
 > - **只安裝一套 Tailscale 軟體**
 >   - Tailscale 安裝不像 WireGuard 分 Server/Client 設定，也不用管理 WireGuard Server/Client 四隻 公鑰/私鑰，避免鑰匙流出風險。
 >   - Tailscale VPN 連進來只通內網有安裝 Tailscale 的設備，還有一層保護；而 WireGuard VPN 連進內網就直接通內網所有設備。
