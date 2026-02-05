@@ -2,7 +2,7 @@
 
 <sub><sup> Here, let's master Tailscale to Easily Replace WireGuide+Termius. This is a method officially recommended by NVIDIA, and it's free. I hope my experience can serve as a reference for you.</sup></sub>
 
-# DGX Spark (Day05) Mastering Tailscale to Easily Replace WireGuide+Termius 20260116
+# DGX Spark (Day05) REMOTE ACCESS - Mastering Tailscale to Easily Replace WireGuide+Termius 20260116
 ## 🟩 English
 > ## Scenarios & Advantages
 > **Use Tailscale to Easily Replace WireGuard + Termius, Free, and Easy to Maintain**
