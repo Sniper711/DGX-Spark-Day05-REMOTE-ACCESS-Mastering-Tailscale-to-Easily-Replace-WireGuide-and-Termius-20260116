@@ -5,7 +5,7 @@
 # DGX Spark (Day05) REMOTE ACCESS - Mastering Tailscale to Easily Replace WireGuide+Termius 20260116
 ## 🟩 English
 > ## Scenarios & Advantages
-> **Use Tailscale to Easily Replace WireGuard + Termius, Free, and Easy to Maintain**
+> **[REMOTE ACCESS] Use Tailscale to Easily Replace WireGuard + Termius, Free, and Easy to Maintain**
 > - **Simply install one piece of software: Tailscale**
 >   - Tailscale installation doesn't differentiate between Server/Client configurations like WireGuard, and there's no need to manage four public/private keys for WireGuard Server/Client, avoiding the risk of key leakage.
 >   - Tailscale VPN connects only to devices on the internal network that have Tailscale installed, providing an extra layer of protection; whereas WireGuard VPN directly accesses all devices on the internal network once connected.
